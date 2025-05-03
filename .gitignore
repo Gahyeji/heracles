@@ -41,6 +41,7 @@
 *.su
 *.idb
 *.pdb
+*.Zone.Identifier
 
 # Kernel Module Compile Results
 *.mod*
