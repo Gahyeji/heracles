@@ -7,6 +7,7 @@ A visual interface for hydra written in C and using GTK. Aim to replace xHydra, 
 - [Usage](#usage)
 - [Install](#install)
 - [Release](#release)
+- Sources(#sources)
 - [Issues](#issues)
 - [Contributing](#contributing)
 - [License](#license)
@@ -38,6 +39,10 @@ I also plan to add a wordlist creator that you'll be able to launch instead of p
 
 ## Release
 No release yet, project in construction.
+
+## Sources
+This app is based on hydra, created by @pseudo. Obviously, this project wouldn't even run without this guy's tool.
+The small extract on the bottom of the app is from (...), taken from this website (...).
 
 ## Issues
 Every user can create an issue if they need to, but please follow the following rules in order for every submission to be taken seriously and fixed :

@@ -1,0 +1,7 @@
+This tool is made for people who wanna test credentials on login form, for the following protocoles : SMB, SSH, HTTP (POST or GET forms), SMTP, SNMP or FTP. 
+For the tool to launch, you need to input at least the following info :
+- IP of target
+- Username or username list
+- Password or wordlist
+- The protocol that the tool will used 
+If some of those infos are missing, expect some errors to occur.
