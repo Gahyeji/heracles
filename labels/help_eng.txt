@@ -5,3 +5,10 @@ For the tool to launch, you need to input at least the following info :
 - Password or wordlist
 - The protocol that the tool will used 
 If some of those infos are missing, expect some errors to occur.
+When every info you need is filled, then press Start on either page you want.
+
+In stead of a single username or a single password, you can use wordlists. In order to do so, you will need to use the buttons at the bottom of the basic page, and then select your wordlist. Make sure the wordlist is made of single words separated only by line returns, making it one word per line. If there is any blankspace or multiple words before the line return, it will be taken into account for the input, so be careful about it, especially if you're making one yourself.
+
+The IPv6 mode can be activated if you need to input one, otherwise it will be taken as a IPv4, thus triggering errors. The same goes with IP list, if "IPv6" is not checked, then your list is gonna be read as a IPv4 one. For your IP wordlists, apply the same rules as the password/username ones (no blankspace, one input per line...) and of course, your dots placement is really important, as well as extension (/8, /24...), make sure everything respects the IP norms (link to an IP norm writing guide).
+
+In the output window, if you didn't check the "verbose mode", the output will be kinda simple to understand. A TLDR error if some info is wrong or if the target is unavailable, and a clear list of possibly right passwords if the attack worked. In "verbose mode" however, you will have the exact output Hydra would have gave you if you used the CLI version. It will allow you to see clearly what's happening, especially if you were used to Hydra without GUI.
